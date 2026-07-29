@@ -1,0 +1,62 @@
+# --- Agent / editor tooling ---
+.claude/
+.cursor/
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Private admin material (not for the public repo) ---
+Admin_Docs/
+Admin_scripts/
+
+# --- Secrets / environment ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv*/
+venv/
+db.sqlite3
+db.sqlite3-journal
+
+# --- Python tooling caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# --- Django ---
+backend/staticfiles/
+backend/media/
+*.log
+
+# --- Node / Next.js ---
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/coverage/
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vercel
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini

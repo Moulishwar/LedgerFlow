@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ledgersheet-core"
+version = "0.1.0"
+description = "Pure-Python accounting engine for LedgerSheet (zero Django imports)."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["core"]
+
+[tool.setuptools.package-dir]
+core = "."
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
